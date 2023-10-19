@@ -1,0 +1,31 @@
+{
+  "name": "r-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "res:build": "rescript build",
+    "res:dev": "rescript build -w",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rescript/core": "^0.5.0",
+    "@rescript/react": "^0.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rescript": "^10.1.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.1.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.5.0"
+  }
+}
