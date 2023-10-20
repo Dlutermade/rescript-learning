@@ -1,3 +1,4 @@
+// 基礎類型
 let greeting = "Hello world!"
 let multilineGreeting = "Hello
 world!
